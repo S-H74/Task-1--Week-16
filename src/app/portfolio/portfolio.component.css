@@ -1,0 +1,30 @@
+.star::before {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  left: 41%;
+  width: 7%;
+  height: 4px;
+  background-color: black;
+}
+.star::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  right: 41%;
+  width: 7%;
+  height: 4px;
+  background-color: black;
+}
+.layer {
+  background-color: #1abc9ce6;
+  opacity: 0;
+  transition: 0.5s;
+}
+.card:hover .layer {
+  opacity: 0.9;
+}
+.fa-plus {
+  color: white;
+  transform: scale(5);
+}

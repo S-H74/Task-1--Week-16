@@ -1,0 +1,24 @@
+.star::before {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  left: 41%;
+  width: 7%;
+  height: 4px;
+  background-color: black;
+}
+.star::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  right: 41%;
+  width: 7%;
+  height: 4px;
+  background-color: black;
+}
+input:focus-visible {
+  outline: none;
+}
+form button {
+  background-color: #1abc9c;
+}

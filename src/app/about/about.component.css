@@ -1,0 +1,26 @@
+#ABOUT {
+  background-color: #1abc9c;
+  height: 90vh;
+  color: white;
+}
+.star::before {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  left: 41%;
+  width: 7%;
+  height: 4px;
+  background-color: white;
+}
+.star::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  right: 41%;
+  width: 7%;
+  height: 4px;
+  background-color: white;
+}
+p {
+  width: 630px;
+}
